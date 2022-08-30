@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body {
+    background-color: brown;
+} 
+
+nav {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    place-content: center;
+    padding: 20px;
+}
+.nav-text {
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    font-weight: 200;
+    display: inherit;
+    margin-top: 15px;
+    margin-left: 15rem;
+    gap: 9rem;
+    color: black;
+}
+.right {
+    border: 2px solid brown;
+    display: inline;
+    margin-left: 10rem;
+    padding: 10px;
+    color: white;
+    background-color: brown;
+}
+.images {
+    margin-left: 10rem;
+}
+.left {
+    margin-left: 10rem;
+    border: 2px solid red;
+    width: 6%;
+    height: 7rem;
+
+}
+.name1 {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.name2 {
+    margin-left: 2rem;
+}
+.name3 {
+    margin-left: 3rem;
+}
+
+p {
+    font-size: 0.8rem;
+    font-family: 'Qwitcher', sans-serif;
+    font-weight: 200;
+    background-color: white;
+}
