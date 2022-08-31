@@ -10,9 +10,176 @@
   box-sizing: border-box;
 }
 /*============================TOLU SECTION ======================================*/
+nav {
+  height: 5rem;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background: rgb(255, 255, 255);
+}
+
+.nav__container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* only needed for tab and phones */
+.nav__toggle-btn {
+  display: none;
+}
+
+.nav__logo img {
+  width: 6rem;
+  margin-right: 8rem;
+  margin-top: 1.2rem;
+}
+
+.nav__links {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  margin-bottom: 4rem;
+  gap: 7rem;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-right: 15rem;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  padding: 4px 4px;
+  width: 8rem;
+  height: 3rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-radius: 3px;
+  border: 1px solid rgb(114, 27, 11);
+  margin-bottom: 4rem;
+  color: white;
+  background: rgb(114, 27, 11);
+}
+
+.sidebar {
+  width: 60px;
+  height: 100vh;
+  background: rgb(150, 10, 10);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.social-links {
+  width: 20px;
+  font-size: 1rem;
+  display: block;
+  margin: 350px auto 0;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.social-links i {
+  color: white;
+}
+
+.vertical-top {
+  border-left: 1.8px solid white;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  margin-left: -4px;
+  top: 140px;
+}
+
+.vertical-bottom {
+  border-left: 1.8px solid white;
+  height: 160px;
+  position: absolute;
+  left: 50%;
+  margin-left: -4px;
+}
 
 /* ================================MCCGREY ============================================*/
+.header img {
+  width: 100%;
+  height: 100vh;
+}
 
+.about {
+  width: 100%;
+}
+
+.about__container {
+  max-width: 90%;
+  margin: auto;
+}
+
+.about__title,
+.par {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.about__title {
+  font-family: "Poppins", sans-serif;
+  margin-top: 4rem;
+  font-size: 2rem;
+  color: rgb(97, 7, 7);
+}
+
+.par {
+  font-family: "Poppins", sans-serif;
+  width: 40%;
+  font-size: 1rem;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+  color: black;
+}
+
+.about__container .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.about__right .about__image-sm img {
+  height: 35rem;
+  margin-left: -150px;
+}
+
+.item .about__left {
+  background: rgb(49, 3, 3);
+  height: 40rem;
+  width: 40rem;
+}
+
+.about__left .about__image-bg h2 {
+  font-family: "Poppins", sans-serif;
+  margin-left: 2rem;
+  margin-top: 15rem;
+  font-size: 2.5rem;
+  color: rgb(221, 119, 35);
+}
+
+.about__left .about__image-bg h2 span {
+  font-size: 1.5rem;
+  color: rgb(209, 7, 7);
+}
+
+.lux-par {
+  font-family: "Poppins", sans-serif;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  color: rgb(255, 255, 255);
+  width: 22rem;
+  line-height: 1.4rem;
+}
 /*---===========================BENJI SECTION=========================================-*/
 
 /*---============================OBIORA SECTION=====================================-*/
