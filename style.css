@@ -186,6 +186,7 @@ button {
   justify-content: space-between;
   margin-top: 60px;
   align-content: center;
+  width: 100%;
 }
 .S3top-section > h1{
   font-family: "Poppins", sans-serif;
@@ -194,37 +195,39 @@ button {
 }
 .S3top-section > p{
   font-family: "Poppins", sans-serif;
-  width: 30rem;
   text-align: center;
-  margin-left: 17rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
 }
 .section-3{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 20px;
+  width: 100%;
 }
 .S3left-border{
   background: rgb(182, 128, 82);
-  width: 4%;
   height: 38rem;
-}
-.S3left-side{
-  width: 66%;
+  color: rgb(182, 128, 82);
 }
 .S3left-side img{
-  width: 37rem;
+  width: 40rem;
   height: 38rem;
 }
 .S3right-side{
   background-color: white;
   display: block;
-  width: 26%;
   align-items: center;
   margin-right: 15px;
+  margin-left: 2rem;
 }
 .S3right-side h3{
   color:rgb(172, 16, 16);
+}
+.S3right-side P{
+  max-width: 250px;
+  
 }
 .S3right-side > img{
   width: 15px;
@@ -240,25 +243,25 @@ button {
 }
 .S3right-border{
   background-color: rgb(182, 128, 82);
-  width: 4%;
   height: 38rem;
+  color: rgb(182, 128, 82)
 }
 /*---============================OBIORA SECTION=====================================-*/
 .section-4{
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
   margin-top: 20px;
   background-color: white;
+  width: 100%;
 }
 .S4left-border{
   background-color: rgb(249, 249, 249);
-  width: 4%;
   height: 38rem;
+  color: rgb(249, 249, 249);
 }
 .S4left-side{
   display: block;
-  width: 26%;
   margin-left: 25px;
   margin-right: 30px;
 }
@@ -266,7 +269,8 @@ button {
   color: rgb(172, 16, 16);
 }
 .S4left-side > p{
-  margin-right: 18px;
+  margin-right: 10px;
+  max-width: 250px;
 }
 .S4left-side img{
   width: 15px;
@@ -283,7 +287,6 @@ button {
 .S4right-side{
   border-top: 40px;
   border-bottom: 40px;
-  width: 66%;
 }
 .S4right-side img{
   width: 39rem;
@@ -291,37 +294,39 @@ button {
 }
 .S4right-border{
   background-color: rgb(249, 249, 249);
-  width: 4%;
   height: 38rem;
+  color: rgb(249, 249, 249);
 }
 /*--=========================MITCH SECTION=========================================--*/
 .section-5{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 20px;
+  width: 100%;
 }
 .S5left-border{
   background: rgb(182, 128, 82);
-  width: 4%;
   height: 38rem;
-}
-.S5left-side{
-  width: 67%;
+  color: rgb(182, 128, 82);
 }
 .S5left-side img{
-  width: 39rem;
+  width: 41rem;
   height: 38rem;
 }
 .S5right-side{
   background-color: white;
   display: block;
-  width: 25%;
   align-items: center;
   margin-right: 15px;
+  margin-left: 2rem;
 }
 .S5right-side h3{
   color:rgb(172, 16, 16);
+}
+.S5right-side P{
+  max-width: 250px;
+  
 }
 .S5right-side > img{
   width: 15px;
@@ -337,7 +342,7 @@ button {
 }
 .S5right-border{
   background-color: rgb(182, 128, 82);
-  width: 4%;
   height: 38rem;
+  color: rgb(182, 128, 82);
 }
 /*--=========================OTUNBA LION SECTION===================================--*/
