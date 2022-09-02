@@ -181,9 +181,163 @@ button {
   line-height: 1.4rem;
 }
 /*---===========================BENJI SECTION=========================================-*/
-
+.S3top-section{
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 60px;
+  align-content: center;
+}
+.S3top-section > h1{
+  font-family: "Poppins", sans-serif;
+  color: rgb(172, 16, 16);
+  font-size: 40px;
+}
+.S3top-section > p{
+  font-family: "Poppins", sans-serif;
+  width: 30rem;
+  text-align: center;
+  margin-left: 17rem;
+}
+.section-3{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.S3left-border{
+  background: rgb(182, 128, 82);
+  width: 4%;
+  height: 38rem;
+}
+.S3left-side{
+  width: 66%;
+}
+.S3left-side img{
+  width: 37rem;
+  height: 38rem;
+}
+.S3right-side{
+  background-color: white;
+  display: block;
+  width: 26%;
+  align-items: center;
+  margin-right: 15px;
+}
+.S3right-side h3{
+  color:rgb(172, 16, 16);
+}
+.S3right-side > img{
+  width: 15px;
+  height: 20px;
+  margin-right: 10%;
+}
+.S3right-side button{
+  border-radius: 0%;
+  background-color: rgb(192, 17, 17);
+  color: white;
+  height: 40px;
+  width: 120px;
+}
+.S3right-border{
+  background-color: rgb(182, 128, 82);
+  width: 4%;
+  height: 38rem;
+}
 /*---============================OBIORA SECTION=====================================-*/
-
+.section-4{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 20px;
+  background-color: white;
+}
+.S4left-border{
+  background-color: rgb(249, 249, 249);
+  width: 4%;
+  height: 38rem;
+}
+.S4left-side{
+  display: block;
+  width: 26%;
+  margin-left: 25px;
+  margin-right: 30px;
+}
+.S4left-side h3{
+  color: rgb(172, 16, 16);
+}
+.S4left-side > p{
+  margin-right: 18px;
+}
+.S4left-side img{
+  width: 15px;
+  height: 20px;
+  margin-right: 10%;
+}
+.S4left-side button{
+  border-radius: 0%;
+  background-color: rgb(192, 17, 17);
+  color: white;
+  height: 40px;
+  width: 120px;
+}
+.S4right-side{
+  border-top: 40px;
+  border-bottom: 40px;
+  width: 66%;
+}
+.S4right-side img{
+  width: 39rem;
+  height: 38rem;
+}
+.S4right-border{
+  background-color: rgb(249, 249, 249);
+  width: 4%;
+  height: 38rem;
+}
 /*--=========================MITCH SECTION=========================================--*/
-
+.section-5{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.S5left-border{
+  background: rgb(182, 128, 82);
+  width: 4%;
+  height: 38rem;
+}
+.S5left-side{
+  width: 67%;
+}
+.S5left-side img{
+  width: 39rem;
+  height: 38rem;
+}
+.S5right-side{
+  background-color: white;
+  display: block;
+  width: 25%;
+  align-items: center;
+  margin-right: 15px;
+}
+.S5right-side h3{
+  color:rgb(172, 16, 16);
+}
+.S5right-side > img{
+  width: 15px;
+  height: 20px;
+  margin-right: 10%;
+}
+.S5right-side button{
+  border-radius: 0%;
+  background-color: rgb(192, 17, 17);
+  color: white;
+  height: 40px;
+  width: 120px;
+}
+.S5right-border{
+  background-color: rgb(182, 128, 82);
+  width: 4%;
+  height: 38rem;
+}
 /*--=========================OTUNBA LION SECTION===================================--*/
